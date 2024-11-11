@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>JS first class</title>
+
+</head>
+
+<body>
+<script>
+	//---Function Declaration with no parameter---//
+	function show()
+	{
+		var friendName=" Bashuri";
+		var friendAge=" 12";
+		var friendSchoolName=" Viqarunnisa Noon School and College";
+		var friendHobby=" Singing";
+		document.write("Friend name is",friendName);
+		document.write("<br>");
+		document.write("Friend age is",friendAge);
+		document.write("<br>");
+		document.write("Friend school name is",friendSchoolName);
+		document.write("<br>");
+		document.write("Friend's hobby is",friendHobby);
+		document.write("<br>");
+	}
+
+    //---Funvtion Call---//
+	show();
+
+    //---Parameter---//
+	function Add(a,b)
+	{
+		var q;
+		q=a+b;
+		document.write("sum of a and b is:",q);
+		document.write("<br>");
+		document.write("the sum of"+ a + " and " + b + " is "+ q);
+		document.write("<br>");
+	}
+	Add(200,60);
+
+function triangle()
+{
+var height=5;
+var base=12;
+var area=0.5*height*base;
+document.write("\nArea of triangle is\n= ",area);
+document.write("<br>");
+}
+triangle();
+
+function rectangle()
+{
+	var height=200;
+	var base=200;
+	var area=height*base;
+	document.write("Area of square is= ", area);
+}
+rectangle();
+</script>
+</body>
+
+</html>
